@@ -5,8 +5,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>Bookings App</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/base.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/header.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/footer.css">
     </head>
     <body>
-        Welcome!
+    	{{ include('_header.html.twig') }}
+        <div class="content">
+        </div>
+        {{ include('_footer.html.twig') }}
     </body>
 </html>
+

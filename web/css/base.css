@@ -1,0 +1,19 @@
+/**
+ * Css file for Booking app base styling
+ */
+body {
+    background-color: #C7E5FF;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #4CA5A5;
+}
+
+.content {
+    padding:  2em 6em;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}

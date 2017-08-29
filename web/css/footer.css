@@ -1,0 +1,29 @@
+/**
+ * Css file for Booking footer styling
+ */
+.footer {
+    background-color: #D9F8F8;
+    border-top: .25em solid #4CA5A5;
+    bottom: 0;
+    display: block;
+    height: 2.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.footer-text {
+    color: #4CA5A5;
+    font-size: 1em;
+    padding: .5em;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.footer-text a {
+    color: #4CA5A5;
+}

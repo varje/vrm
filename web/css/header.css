@@ -1,0 +1,18 @@
+.header {
+    background-color: #D9F8F8;
+    border-bottom: .25em solid #4CA5A5;
+    display: -webkit-flex;
+    display: flex;
+    height: 5em;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.header__heading {
+    color: #4CA5A5;
+    float: left;
+    font-size: 2em;
+    font-weight: 700;
+}
