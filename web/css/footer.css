@@ -15,7 +15,7 @@
             box-sizing: border-box;
 }
 
-.footer-text {
+.footer__text {
     color: #4CA5A5;
     font-size: 1em;
     padding: .5em;
@@ -24,6 +24,6 @@
             box-sizing: border-box;
 }
 
-.footer-text a {
+.footer__text a {
     color: #4CA5A5;
 }
