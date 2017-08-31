@@ -10,10 +10,12 @@
             <link rel="stylesheet" type="text/css" media="screen" href="/css/base.css">
             <link rel="stylesheet" type="text/css" media="screen" href="/css/header.css">
             <link rel="stylesheet" type="text/css" media="screen" href="/css/footer.css">
+            <link rel="stylesheet" type="text/css" media="screen" href="/css/menu.css">
         {% endblock %}
     </head>
     <body>
         {{ include('_header.html.twig') }}
+        {{ include('_menu.html.twig') }}
         <div class="content">{% block content %}{% endblock %}</div>
         {{ include('_footer.html.twig') }}
     </body>
