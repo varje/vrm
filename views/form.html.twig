@@ -1,8 +1,23 @@
 {% extends 'base.html.twig' %}
 
+{% form_theme form _self %}
+
 {% block content %}
     <h2>Fill in the form for a booking and enjoy the best time of your life!</h2>
-    {{ form_start(form) }}
+    {{ form_start(form, {attr: {class: 'booking-form'}}) }}
     {{ form_widget(form) }}
     {{ form_end(form) }}
 {% endblock %}
+
+{% block form_row %}
+    <div class="form-row">
+        {{ form_label(form) }}
+        {{ form_widget(form) }}
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/form.css">
+{% endblock %}
+
