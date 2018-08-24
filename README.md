@@ -1,3 +1,6 @@
+# Silex Booking App
+Done in school subject based on tutorial.
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
